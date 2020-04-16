@@ -6,40 +6,44 @@ body{
     margin: 0;
 }
 
-/* --------------- Sidebar --------------- */
-.sidebar{
-    background-color: #00c851;
+/* --------------- navbar --------------- */
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
     float: left;
-    width: 300px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
     text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100%;
-    box-shadow: 0 0 15px black;
-}
-.sidebar img{
-    width: 150px;
-    height: 150px;
+    padding: 14px 16px;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  ul img{
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
+    margin-top: 10px;
     border: 10px solid #1bad56;
     box-shadow: 0 0 15px black;
-    margin-top: 100px;
-}
-.sidebar a{
-    display: block;
-    text-decoration: none;
-    color:#baf5d2;
-    padding: 15px 25px;
-    font-size: 18px;
-}
-.sidebar a:hover{
-    color: white;
 }
 
+  
 /* ------------- About Section --------------- */
 #about-section{
-    margin-left: 300px;
+    /* margin-left: 300px; */
     padding: 20px;
 }
 #about-section h1{
@@ -68,7 +72,7 @@ body{
 
 /* -------------- Education Section ---------- */
 #Education-section{
-    margin-left: 300px;
+    /* margin-left: 300px; */
     padding: 20px;
 }
 .Education-article{
@@ -78,9 +82,6 @@ body{
     border-radius: 10px;
     transition: all 0.5s;
 }
-/* .Education-article:hover{ */
-    /* transform: perspective(400px) rotateX(20deg); */
-/* } */
 .Education-article h2{
     font-family: 'Lobster', cursive;
     color: #00c851;
@@ -91,7 +92,7 @@ body{
 }
 /* ---------------- Skills SEction ------------- */
 #Skills-section{
-    margin-left: 300px;
+    /* margin-left: 300px; */
     padding: 20px;
 }
 #Skills-text{
@@ -114,7 +115,7 @@ body{
     
 }
 #Hobbies-Section{
- margin-left: 300px;
+ /* margin-left: 300px; */
  padding: 20px;   
 }
 .Hobbies-article p{
